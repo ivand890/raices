@@ -1,6 +1,6 @@
 # Raíces 🌱
 
-Práctica abierta de historia y cultura de México, con niveles, simulacros y repaso de errores. Interfaz en español, construida con React y Vite.
+Práctica abierta de historia y cultura de México, con niveles, simulacros y repaso espaciado. Interfaz en español, construida con React y Vite.
 
 **Proyecto independiente: no está afiliado a la SRE, no reproduce su banco reservado, no ofrece asesoría migratoria y no garantiza aprobar.** Consulta la [guía de estudios de la SRE](https://portales.sre.gob.mx/tramites-dgaj/naturalizacion/guia-de-estudios) y las instrucciones de tu trámite.
 
@@ -8,11 +8,13 @@ Práctica abierta de historia y cultura de México, con niveles, simulacros y re
 
 - 125 preguntas originales, distribuidas en 8 niveles y 2 etapas.
 - Prácticas de 10 preguntas; 8 aciertos desbloquean el siguiente nivel.
+- Los temas se pueden practicar desde el primer día, sin esperar a desbloquear la ruta.
 - Simulacro mixto de ambas etapas y práctica de la segunda etapa.
-- Práctica por tema, tarjetas sin puntuación y estadísticas de aciertos.
-- Repaso de errores, XP, rachas y logros.
+- Tarjetas sin puntuación y estadísticas de aciertos por tema.
+- Repaso espaciado: un error vuelve hoy; un acierto pospone la pregunta 1, 3, 7, 14 o 30 días.
+- XP, rachas y logros.
 - Explicaciones; las 50 preguntas de ampliación tienen enlaces de lectura por pregunta. El banco inicial remite a la bibliografía general.
-- Historial de los últimos 50 intentos, reanudación de sesiones y respaldos JSON.
+- Historial de los últimos 50 intentos, prácticas en pausa y respaldos JSON. Los respaldos `raices.v1` anteriores siguen siendo válidos.
 
 El cronómetro es informativo, sin límite de tiempo. No evalúa comprensión del español. Las reglas de la app no son una certificación oficial.
 

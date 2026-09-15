@@ -90,6 +90,8 @@ const rows = [
  [5,'Civismo','Una autoridad obliga a alguien a revelar su voto. ¿Qué principio afecta?','Secreto del voto|Herencia del poder|Centralismo|Libertad de comercio','La elección debe poder mantenerse privada para proteger al votante.']
 ];
 export const questions = rows.map(([level,topic,text,options,explanation],i)=>({id:`q${i+1}`,level,topic,text,options:options.split('|'),explanation})).concat(advancedQuestions,extraQuestions);
+export const topicNames=[...new Set(questions.map(q=>q.topic))].sort((a,b)=>a.localeCompare(b,'es'));
+export const idsForTopic=topic=>questions.filter(q=>q.topic===topic).map(q=>q.id);
 export const focusIds = ['q26','q46','q64'];
 export const sources = [
  ['Guía de estudio de la SRE','Bibliografía oficial; úsala como referencia principal.','https://portales.sre.gob.mx/tramites-dgaj/naturalizacion/guia-de-estudios'],
