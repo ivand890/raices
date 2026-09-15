@@ -1,0 +1,32 @@
+{
+  "name": "raices",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test src/engine.test.js scripts/release.test.js",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "description": "Práctica abierta de historia y cultura de México",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivand890/raices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivand890/raices/issues"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
