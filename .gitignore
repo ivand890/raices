@@ -8,6 +8,14 @@ coverage/
 .openai/
 .sites-runtime/
 design/
+.agents/
+.codex/
+.cursor/
+.grok/
+.opencode/
+.impeccable/config.local.json
+.impeccable/live/sessions/
+.impeccable/live/inject-journal.json
 *.pdf
 *.zip
 *.tar

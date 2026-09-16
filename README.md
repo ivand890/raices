@@ -56,6 +56,7 @@ La app no implementa autenticación: configura el control de acceso en tu provee
 - `src/main.jsx`: interfaz y navegación.
 - `src/StudyPanel.jsx`: tarjetas y estadísticas.
 - `public/pyramid.png`: ilustración del proyecto.
+- `PRODUCT.md`, `DESIGN.md`: contexto de producto y sistema visual.
 
 ## Contribuir y licencia
 

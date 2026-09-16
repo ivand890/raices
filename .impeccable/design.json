@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-15T12:00:00Z",
+  "title": "Design System: Raíces",
+  "extensions": {
+    "colorMeta": {
+      "bosque": {
+        "role": "primary",
+        "displayName": "Bosque",
+        "canonical": "#193e32",
+        "tonalRamp": ["#0c1f1a", "#132e26", "#193e32", "#28533f", "#3d6b54", "#5a8a6e", "#8fb39c", "#d5e5db"]
+      },
+      "bosque-hover": {
+        "role": "primary",
+        "displayName": "Bosque hover",
+        "canonical": "#28533f",
+        "tonalRamp": ["#0c1f1a", "#132e26", "#193e32", "#28533f", "#3d6b54", "#5a8a6e", "#8fb39c", "#d5e5db"]
+      },
+      "barro": {
+        "role": "secondary",
+        "displayName": "Barro",
+        "canonical": "#b65332",
+        "tonalRamp": ["#4a1c10", "#6e2c18", "#8f3d22", "#b65332", "#c96e4c", "#db9378", "#ebc4b4", "#f6e9de"]
+      },
+      "sol": {
+        "role": "tertiary",
+        "displayName": "Sol",
+        "canonical": "#d8a04c",
+        "tonalRamp": ["#5c4010", "#8a5f1c", "#b3812e", "#d8a04c", "#e5b45e", "#eec980", "#f4e0b0", "#faf3e3"]
+      },
+      "sol-eyebrow": {
+        "role": "tertiary",
+        "displayName": "Sol eyebrow",
+        "canonical": "#e5b45e",
+        "tonalRamp": ["#5c4010", "#8a5f1c", "#b3812e", "#d8a04c", "#e5b45e", "#eec980", "#f4e0b0", "#faf3e3"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#142f2b",
+        "tonalRamp": ["#142f2b", "#17312d", "#3a4644", "#68706d", "#899485", "#c6c8be", "#e0ddd4", "#f7f5ef"]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body",
+        "canonical": "#17312d",
+        "tonalRamp": ["#142f2b", "#17312d", "#3a4644", "#68706d", "#899485", "#c6c8be", "#e0ddd4", "#f7f5ef"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#68706d",
+        "tonalRamp": ["#142f2b", "#17312d", "#3a4644", "#68706d", "#899485", "#c6c8be", "#e0ddd4", "#f7f5ef"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#e0ddd4",
+        "tonalRamp": ["#142f2b", "#17312d", "#3a4644", "#68706d", "#899485", "#c6c8be", "#e0ddd4", "#f7f5ef"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f7f5ef",
+        "tonalRamp": ["#142f2b", "#3a4644", "#68706d", "#c6c8be", "#e0ddd4", "#f3f1e9", "#f7f5ef", "#fffcf6"]
+      },
+      "paper-side": {
+        "role": "neutral",
+        "displayName": "Paper side",
+        "canonical": "#f3f1e9",
+        "tonalRamp": ["#142f2b", "#3a4644", "#68706d", "#c6c8be", "#e0ddd4", "#f3f1e9", "#f7f5ef", "#fffcf6"]
+      },
+      "paper-panel": {
+        "role": "neutral",
+        "displayName": "Paper panel",
+        "canonical": "#faf8f2",
+        "tonalRamp": ["#142f2b", "#3a4644", "#68706d", "#c6c8be", "#e0ddd4", "#f3f1e9", "#faf8f2", "#fffcf6"]
+      },
+      "paper-quiz": {
+        "role": "neutral",
+        "displayName": "Paper quiz",
+        "canonical": "#fffcf6",
+        "tonalRamp": ["#142f2b", "#3a4644", "#68706d", "#c6c8be", "#e0ddd4", "#f3f1e9", "#f7f5ef", "#fffcf6"]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "#f8f4e9",
+        "tonalRamp": ["#142f2b", "#3a4644", "#68706d", "#c6c8be", "#e0ddd4", "#f3f1e9", "#f8f4e9", "#fffcf6"]
+      },
+      "focus": {
+        "role": "tertiary",
+        "displayName": "Focus gold",
+        "canonical": "#c47d35",
+        "tonalRamp": ["#5c4010", "#8a5f1c", "#a97834", "#c47d35", "#d8a04c", "#e5b45e", "#f4e0b0", "#faf3e3"]
+      },
+      "good": {
+        "role": "neutral",
+        "displayName": "Good wash",
+        "canonical": "#e8efdf",
+        "tonalRamp": ["#2d4a32", "#467444", "#6e8c62", "#8fb39c", "#c5d6c0", "#e6efdf", "#e8efdf", "#f4f7f0"]
+      },
+      "bad": {
+        "role": "secondary",
+        "displayName": "Bad wash",
+        "canonical": "#f6e9dd",
+        "tonalRamp": ["#6e2c18", "#b65332", "#b46646", "#c96e4c", "#e8c4b0", "#f6e9dd", "#f9e9de", "#fbf4ee"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page titles in Caslon. Belonging, not UI chrome." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles, level names, cream CTA." },
+      "title": { "displayName": "Title", "purpose": "Sans subheads (h3)." },
+      "body": { "displayName": "Body", "purpose": "Explanations and settings. Measure often under 730px." },
+      "label": { "displayName": "Label", "purpose": "Eyebrows, topics, meta, nav." }
+    },
+    "shadows": [
+      { "name": "cream-lift", "value": "0 3px 8px #0001", "purpose": "Hero cream CTA at rest." },
+      { "name": "current-halo", "value": "0 0 0 6px #f7f5ef", "purpose": "Barro disc of the active level." },
+      { "name": "study-lift", "value": "0 4px 14px #193e3214", "purpose": "Optional soft lift on quiz, flashcard, or panel." }
+    ],
+    "motion": [
+      { "name": "control", "value": "background .15s, transform .15s", "purpose": "Primary and cream button hover." },
+      { "name": "track", "value": "width .3s", "purpose": "Quiz and mini progress fills." },
+      { "name": "reduced", "value": "none", "purpose": "Honor prefers-reduced-motion: drop all transitions." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "680px" },
+      { "name": "tablet", "value": "980px" },
+      { "name": "laptop", "value": "1190px" },
+      { "name": "wide", "value": "1500px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Bosque fill for the main study action.",
+      "html": "<button class=\"ds-btn-primary\">Practicar ahora<svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16 M14 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 13px; min-height: 47px; padding: 13px 21px; border: 1px solid transparent; border-radius: 8px; background: #193e32; color: #fff; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; cursor: pointer; transition: background .15s, transform .15s; } .ds-btn-primary:hover { background: #28533f; transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; }"
+    },
+    {
+      "name": "Cream Button",
+      "kind": "button",
+      "refersTo": "button-cream",
+      "description": "Serif CTA on the bosque hero only.",
+      "html": "<button class=\"ds-btn-cream\">Empezar nivel<svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16 M14 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-cream { display: inline-flex; align-items: center; justify-content: center; gap: 13px; min-height: 47px; padding: 13px 21px; border: 1px solid transparent; border-radius: 8px; background: #f8f4e9; color: #193e32; font-family: 'Libre Caslon Display', Georgia, serif; font-size: 21px; font-weight: 400; box-shadow: 0 3px 8px #0001; cursor: pointer; transition: background .15s, transform .15s; } .ds-btn-cream:hover { background: #fff; } .ds-btn-cream:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline bosque for the second action in a row.",
+      "html": "<button class=\"ds-btn-secondary\">Exportar progreso</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 13px; min-height: 47px; padding: 13px 21px; border: 1px solid #b6c0b5; border-radius: 8px; background: transparent; color: #193e32; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; cursor: pointer; transition: background .15s; } .ds-btn-secondary:hover { background: #e7eadf; } .ds-btn-secondary:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; }"
+    },
+    {
+      "name": "Answer",
+      "kind": "button",
+      "refersTo": "answer",
+      "description": "Full-width quiz option with a letter key.",
+      "html": "<button class=\"ds-answer\"><span>A</span>Ciudad de México</button>",
+      "css": ".ds-answer { display: flex; align-items: center; gap: 15px; width: 100%; min-height: 59px; padding: 15px 18px; text-align: left; border: 1px solid #d6dacf; border-radius: 8px; background: transparent; color: #142f2b; font-family: 'DM Sans', sans-serif; font-size: 16px; cursor: pointer; } .ds-answer span { display: grid; place-items: center; width: 29px; height: 29px; flex-shrink: 0; border: 1px solid #cdd2c6; border-radius: 5px; font-size: 12px; } .ds-answer:hover { background: #eff0e7; border-color: #193e32; } .ds-answer:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; } .ds-answer[data-p-state=\"selected\"] { border: 2px solid #193e32; padding: 14px 17px; } .ds-answer[data-p-state=\"correct\"] { background: #e6efdf; border-color: #6e8c62; } .ds-answer[data-p-state=\"incorrect\"] { background: #f9e9de; border-color: #b46646; }"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Paper card for rail, simulacro, and study blocks.",
+      "html": "<section class=\"ds-panel\"><p class=\"ds-panel-eye\">Sin candados</p><h3>Civismo</h3><p>Practica cualquier tema desde el primer día.</p></section>",
+      "css": ".ds-panel { padding: 24px 20px; border: 1px solid #e0ddd4; border-radius: 9px; background: #faf8f2; color: #142f2b; font-family: 'DM Sans', sans-serif; } .ds-panel-eye { color: #a97834; font-size: 14px; font-weight: 600; margin: 0 0 20px; } .ds-panel h3 { margin: 0; font-size: 17px; font-weight: 600; } .ds-panel p:not(.ds-panel-eye) { margin: 7px 0 0; color: #59645d; font-size: 13px; line-height: 1.5; }"
+    },
+    {
+      "name": "Topic Chip",
+      "kind": "chip",
+      "refersTo": "topic-chip",
+      "description": "Open topic practice tile on Mi camino.",
+      "html": "<button class=\"ds-topic-chip\"><strong>Civismo</strong><small>18 preguntas</small></button>",
+      "css": ".ds-topic-chip { width: 100%; min-height: 76px; padding: 16px 14px; text-align: left; border: 1px solid #e0ddd4; border-radius: 9px; background: #faf8f2; color: #142f2b; cursor: pointer; } .ds-topic-chip strong { display: block; font-family: 'Libre Caslon Display', Georgia, serif; font-size: 22px; font-weight: 400; } .ds-topic-chip small { display: block; margin-top: 6px; color: #626a64; font-size: 12px; line-height: 1.35; font-family: 'DM Sans', sans-serif; } .ds-topic-chip:hover { border-color: #193e32; background: #eef1e6; } .ds-topic-chip:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; }"
+    },
+    {
+      "name": "Sidebar Nav",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Main sections. Active uses a bosque left edge on desktop.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación principal\"><button class=\"ds-nav-item is-active\"><svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" aria-hidden=\"true\"><path d=\"M3 4h6l3 2 3-2h6v15h-6l-3 2-3-2H3z M12 6v15\"/></svg>Mi camino</button><button class=\"ds-nav-item\">Repaso<b>9</b></button></nav>",
+      "css": ".ds-nav { display: flex; flex-direction: column; gap: 9px; font-family: 'DM Sans', sans-serif; } .ds-nav-item { display: flex; align-items: center; gap: 16px; padding: 17px 15px; border: 0; border-left: 4px solid transparent; border-radius: 6px; background: transparent; color: #3a4644; text-align: left; font: inherit; cursor: pointer; } .ds-nav-item:hover { background: #e9e9df; } .ds-nav-item.is-active { background: #e1e5db; border-left-color: #193e32; font-weight: 700; color: #193e32; } .ds-nav-item:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; } .ds-nav-item b { margin-left: auto; font-size: 11px; background: #d2dacf; border-radius: 20px; padding: 2px 6px; font-weight: 600; }"
+    },
+    {
+      "name": "Study Select",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Topic picker on the study panel.",
+      "html": "<label class=\"ds-field\">Elige un tema<select><option>Civismo</option><option>Historia</option></select></label>",
+      "css": ".ds-field { display: block; font-family: 'DM Sans', sans-serif; font-size: 15px; color: #17312d; } .ds-field select { display: block; width: 100%; max-width: 100%; margin: 10px 0 0; padding: 12px 16px; border: 1px solid #687767; border-radius: 8px; background: #fffdf8; color: #203d30; font: inherit; } .ds-field select:focus-visible { outline: 3px solid #c47d35; outline-offset: 5px; }"
+    },
+    {
+      "name": "Level Disc",
+      "kind": "custom",
+      "refersTo": "level-current",
+      "description": "Current step on the learning path: barro disc with paper halo.",
+      "html": "<div class=\"ds-level is-current\"><span class=\"ds-level-num\">04</span><span class=\"ds-level-text\"><strong>Avanzado</strong><small>Democracia, instituciones y derechos.</small></span></div>",
+      "css": ".ds-level { display: flex; align-items: center; gap: 25px; min-height: 92px; color: #142f2b; font-family: 'DM Sans', sans-serif; } .ds-level-num { width: 48px; height: 48px; flex-shrink: 0; display: grid; place-items: center; border-radius: 50%; border: 1px solid #c6c8be; background: #f7f5ef; font-family: 'Libre Caslon Display', Georgia, serif; font-size: 26px; color: #74796e; } .ds-level.is-current .ds-level-num { background: #b65332; color: #fff; border-color: #b65332; box-shadow: 0 0 0 6px #f7f5ef; } .ds-level-text strong { display: block; font-family: 'Libre Caslon Display', Georgia, serif; font-weight: 400; font-size: 26px; } .ds-level-text small { display: block; margin-top: 4px; color: #626a64; font-size: 13px; line-height: 1.4; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El solar bajo el sol",
+    "overview": "Raíces looks like a small plot of Mexican land brought indoors: warm paper, bosque shade, barro, and a clay pyramid under a round sun. It is a place you tend, not a government portal and not a gamified SaaS quiz. The atmosphere is cálida y seria — you are studying for a real trámite, on paper that could live on a kitchen table.\n\nDisplay type is a book serif (Libre Caslon Display) for belonging and titles. Work type is DM Sans. Color is committed bosque on the hero and primary actions, with barro as the scarce human accent (current level, error, XP, topic). Depth is mostly tonal: stacked papers and hairline rules. Light ambient lift is allowed on study surfaces (quiz, cards, cream CTA) so they sit slightly off the page, never as Material elevation.\n\nThe clay illustration (public/pyramid.png) is the signature object. It belongs in the forest hero, not as a repeating sticker.",
+    "keyCharacteristics": [
+      "Warm paper field, never cool gray or true white as the page.",
+      "Serif for titles and belonging; sans for tasks.",
+      "Bosque + barro as the only two chromatic voices; sol for rare highlights.",
+      "Hairlines and stacked paper; optional soft lift on study surfaces.",
+      "Independent of official Mexico: no tricolor, no eagle, no gob.mx chrome."
+    ],
+    "rules": [
+      { "name": "The Bosque y Barro Rule", "body": "Two chromatic voices. Bosque holds the land; barro marks the person (here, wrong, now). Do not add a third accent family (sky, purple, electric lime). Sol is light, not a third brand color.", "section": "colors" },
+      { "name": "The No Official Dress Rule", "body": "No Mexican flag tricolor as UI, no coat of arms, no gob.mx header, no “portal” chrome. Belonging is the solar, not the state.", "section": "colors" },
+      { "name": "The Two Hands Rule", "body": "Serif speaks (titles, quotes, cream CTA). Sans works (answers, nav, forms). Do not set long explanations in Caslon.", "section": "typography" },
+      { "name": "The Kitchen-Table Rule", "body": "One primary column of study. Do not turn Mi camino into a metric dashboard. The rail is a companion, not a KPI strip.", "section": "layout" },
+      { "name": "The Table-Sheet Rule", "body": "Surfaces are paper on paper. A sheet may lift a few pixels. Nothing floats in a dark room, and nested cards do not each grow a shadow.", "section": "elevation" },
+      { "name": "The Clay-Edge Rule", "body": "Corners are softened clay, not glass pills and not sharp bureaucratic boxes. Stay in the 6–14px band; do not jump to 24px+ “app blobs.”", "section": "elevation" }
+    ],
+    "dos": [
+      "Do set page titles in Libre Caslon on warm paper, with bosque as the committed field.",
+      "Do use barro only for “the person is here / this went wrong / this is earned.”",
+      "Do keep study on a single sheet: quiz, flashcard, or topic chip — not a grid of identical icon cards.",
+      "Do allow a soft table-sheet shadow on quiz, cream CTA, or flashcard.",
+      "Do honor prefers-reduced-motion by dropping transitions."
+    ],
+    "donts": [
+      "Don't dress the UI as gob.mx, SRE, or the Mexican flag.",
+      "Don't import SaaS habits: dark dashboards, hero metrics, glassmorphism, gradient type, or an AI-purple accent.",
+      "Don't put Caslon on long body copy or answers.",
+      "Don't nest cards or give every panel its own drop shadow.",
+      "Don't copy the 6px brand subtitle size onto any readable control.",
+      "Don't invent a third chromatic brand color."
+    ]
+  }
+}
